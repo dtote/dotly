@@ -18,9 +18,9 @@ if [ "$CODELY_THEME_MODE" = "dark" ]; then
   git_dirty_status_color="yellow"
   git_no_changes_status_color="white"
   git_on_branch_color="white"
-  pwd_color="yellow"
+  pwd_color="magenta"
   diamond_color="white"
-  status_icon_color_ok="green"
+  status_icon_color_ok="yellow"
   status_icon_color_ko="red"
   [[ $support_color_tones = true ]] && ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8' || ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=magenta'
 else
